@@ -27,7 +27,7 @@ def bfs(tree, start, limit):
     while queue:
         order.append(queue.popleft())
         node = order[-1]
-        if(label[node]<limit)
+        if(label[node]<limit):
            for child in reversed(tree[node]):
                queue.appendleft(child)
 
